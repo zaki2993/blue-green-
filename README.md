@@ -37,4 +37,6 @@ omarchy-restart-waybar
 ---
 
 ## Screenshots
+![blue-green Desktop Screenshot 1](https://raw.githubusercontent.com/zaki2993/blue-green-/master/screenshot/screenshot-2025-12-10_12-55-33.png)
 
+![blue-green Desktop Screenshot 2](https://raw.githubusercontent.com/zaki2993/blue-green-/master/screenshot/screenshot-2025-12-10_13-08-55.png)
