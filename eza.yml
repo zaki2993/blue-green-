@@ -1,0 +1,102 @@
+colourful: true
+
+filekinds:
+  normal: { foreground: "#00CCFF" }       # Main Files (Sky Blue)
+  directory: { foreground: "#0BF42A" }    # Directories (Electric Green)
+  symlink: { foreground: "#00CCFF" }     # Symlinks (Sky Blue)
+  pipe: { foreground: "#3A3A3A" }        # Subtle/Inactive
+  block_device: { foreground: "#e06c75" } # Warning Red
+  char_device: { foreground: "#e06c75" }  # Warning Red
+  socket: { foreground: "#3A3A3A" }       # Subtle/Inactive
+  special: { foreground: "#c678dd" }      # Purple (Retained for special status)
+  executable: { foreground: "#0BF42A" }   # Executables (Electric Green)
+  mount_point: { foreground: "#00CCFF" }  # Mount Points (Sky Blue)
+
+perms:
+  user_read: { foreground: "#00CCFF" }
+  user_write: { foreground: "#e5c07b" }   # Warning Yellow
+  user_execute_file: { foreground: "#0BF42A" } # Electric Green
+  user_execute_other: { foreground: "#0BF42A" }
+  group_read: { foreground: "#00CCFF" }
+  group_write: { foreground: "#e5c07b" }   # Warning Yellow
+  group_execute: { foreground: "#0BF42A" }
+  other_read: { foreground: "#00CCFF" }
+  other_write: { foreground: "#e5c07b" }   # Warning Yellow
+  other_execute: { foreground: "#0BF42A" }
+  special_user_file: { foreground: "#c678dd" }
+  special_other: { foreground: "#3A3A3A" }
+  attribute: { foreground: "#00CCFF" }
+
+size:
+  major: { foreground: "#0BF42A" }         # Electric Green
+  minor: { foreground: "#00CCFF" }         # Sky Blue
+  number_byte: { foreground: "#00CCFF" }
+  number_kilo: { foreground: "#00CCFF" }
+  number_mega: { foreground: "#0BF42A" }   # Highlight Mega/Giga (Electric Green)
+  number_giga: { foreground: "#0BF42A" }
+  number_huge: { foreground: "#0BF42A" }
+  unit_byte: { foreground: "#00CCFF" }
+  unit_kilo: { foreground: "#00CCFF" }
+  unit_mega: { foreground: "#0BF42A" }
+  unit_giga: { foreground: "#0BF42A" }
+  unit_huge: { foreground: "#0BF42A" }
+
+users:
+  user_you: { foreground: "#00CCFF" }      # Sky Blue
+  user_root: { foreground: "#e06c75" }     # Warning Red
+  user_other: { foreground: "#c678dd" }
+  group_yours: { foreground: "#00CCFF" }
+  group_other: { foreground: "#3A3A3A" }
+  group_root: { foreground: "#e06c75" }
+
+links:
+  normal: { foreground: "#00CCFF" }
+  multi_link_file: { foreground: "#0BF42A" }
+
+git:
+  new: { foreground: "#0BF42A" }          # Electric Green
+  modified: { foreground: "#e5c07b" }     # Warning Yellow
+  deleted: { foreground: "#e06c75" }      # Warning Red
+  renamed: { foreground: "#00CCFF" }
+  typechange: { foreground: "#c678dd" }
+  ignored: { foreground: "#3A3A3A" }
+  conflicted: { foreground: "#e06c75" }
+
+git_repo:
+  branch_main: { foreground: "#00CCFF" }
+  branch_other: { foreground: "#c678dd" }
+  git_clean: { foreground: "#0BF42A" }    # Electric Green (Success)
+  git_dirty: { foreground: "#e06c75" }    # Warning Red (Dirty)
+
+security_context:
+  colon: { foreground: "#3A3A3A" }
+  user: { foreground: "#00CCFF" }
+  role: { foreground: "#c678dd" }
+  typ: { foreground: "#3A3A3A" }
+  range: { foreground: "#c678dd" }
+
+file_type:
+  image: { foreground: "#e5c07b" }      # Warning Yellow
+  video: { foreground: "#e06c75" }      # Warning Red
+  music: { foreground: "#0BF42A" }       # Electric Green
+  lossless: { foreground: "#00CCFF" }
+  crypto: { foreground: "#3A3A3A" }
+  document: { foreground: "#00CCFF" }
+  compressed: { foreground: "#c678dd" }
+  temp: { foreground: "#e06c75" }        # Warning Red
+  compiled: { foreground: "#00CCFF" }
+  build: { foreground: "#3A3A3A" }
+  source: { foreground: "#0BF42A" }
+
+punctuation: { foreground: "#3A3A3A" }
+date: { foreground: "#00CCFF" }
+inode: { foreground: "#0BF42A" }
+blocks: { foreground: "#00CCFF" }
+header: { foreground: "#00CCFF" }
+octal: { foreground: "#00CCFF" }
+flags: { foreground: "#c678dd" }
+
+symlink_path: { foreground: "#00CCFF" }
+control_char: { foreground: "#00CCFF" }
+broken_symlink: { foreground: "#e06c75" }
+broken_path_overlay: { foreground: "#3A3A3A" }

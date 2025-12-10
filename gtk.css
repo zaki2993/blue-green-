@@ -1,0 +1,48 @@
+/* --- BASE TERMINAL COLORS (Adjusted for Theme) --- */
+@define-color background     #1A1A1A; /* Dark Anchor */
+@define-color foreground     #00CCFF; /* Sky Blue */
+@define-color black          #1A1A1A; /* Dark Anchor */
+@define-color red            #e06c75;
+@define-color green          #0BF42A; /* Electric Green */
+@define-color yellow         #e5c07b;
+@define-color blue           #230BF4; /* Electric Blue (from your previous style) */
+@define-color magenta        #c678dd;
+@define-color cyan           #00CCFF; /* Sky Blue */
+@define-color white          #ffffff;
+@define-color bright_black   #3A3A3A;
+@define-color bright_red     #f28b82;
+@define-color bright_green   #0BF42A; /* Electric Green */
+@define-color bright_yellow  #e5c07b;
+@define-color bright_blue    #00CCFF; /* Sky Blue */
+@define-color bright_magenta #d19a66;
+@define-color bright_cyan    #8be9fd;
+@define-color bright_white   #d0f0d7;
+
+/* --- SEMANTIC COLORS (Accent/Highlight Focus) --- */
+@define-color accent_bg_color #0BF42A; /* BACKGROUND OF SELECTED ITEM (Electric Green) */
+@define-color accent_fg_color @background;
+@define-color accent_color #0BF42A;     /* Electric Green */
+
+/* --- WINDOW/VIEW COLORS --- */
+@define-color window_bg_color @background;
+@define-color window_fg_color @foreground;
+
+@define-color view_bg_color @black;
+@define-color view_fg_color @foreground;
+@define-color sidebar_bg_color @black;
+@define-color sidebar_fg_color @foreground;
+@define-color sidebar_backdrop_color @black;
+@define-color sidebar_shade_color @black;
+
+@define-color headerbar_bg_color alpha(@foreground, 0.1);
+@define-color headerbar_fg_color @foreground;
+
+/* --- STATE COLORS --- */
+@define-color destructive_bg_color @red;
+@define-color success_bg_color @green;
+@define-color warning_bg_color @yellow;
+
+@define-color theme_selected_bg_color #0BF42A; /* SELECTED BACKGROUND (Electric Green) */
+@define-color theme_selected_fg_color @background;
+
+/* ... all other colors remain the same, relying on the new variables ... */

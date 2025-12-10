@@ -1,0 +1,80 @@
+# Main background
+theme[main_bg]="#1A1A1A"    
+
+# Main text color (Sky Blue)
+theme[main_fg]="#00CCFF"    
+
+# Title color for boxes (Sky Blue)
+theme[title]="#00CCFF"      
+
+# Highlight color for keyboard shortcuts (Electric Green)
+theme[hi_fg]="#0BF42A"      
+
+# Background color of selected items (Dark Anchor)
+theme[selected_bg]="#1e2a24"
+
+# Foreground color of selected items (Electric Green)
+theme[selected_fg]="#0BF42A"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#3A3A3A"
+
+# Color of text appearing on top of graphs (Sky Blue)
+theme[graph_text]="#00CCFF" 
+
+# Misc colors for processes box (Sky Blue)
+theme[proc_misc]="#00CCFF"
+
+# Cpu/mem/net box outline color (Electric Green)
+theme[cpu_box]="#0BF42A"
+theme[mem_box]="#0BF42A"
+theme[net_box]="#0BF42A"
+theme[proc_box]="#0BF42A"
+
+# Box divider line
+theme[div_line]="#3A3A3A"
+
+# --- Temperature (Critical Gradient maintained) ---
+theme[temp_start]="#00CCFF"  
+theme[temp_mid]="#E4F40B"    
+theme[temp_end]="#C80909"    
+
+# --- CPU Graph (A Sky Blue gradient) ---
+theme[cpu_start]="#66DFFF" 
+theme[cpu_mid]="#00CCFF"   
+theme[cpu_end]="#0099CC"   
+
+# --- Mem/Disk Free Meter (Electric Green to Sky Blue) ---
+theme[free_start]="#0BF42A"
+theme[free_mid]="#66DFFF"
+theme[free_end]="#00CCFF"  
+
+# --- Mem/Disk Cached Meter (Electric Green gradient) ---
+theme[cached_start]="#0BF42A"
+theme[cached_mid]="#63F888" 
+theme[cached_end]="#8FFAAA"
+
+# --- Mem/Disk Available Meter (Electric Green to Sky Blue) ---
+theme[available_start]="#0BF42A"
+theme[available_mid]="#66DFFF"
+theme[available_end]="#00CCFF"
+
+# --- Mem/Disk Used Meter (Critical color gradient) ---
+theme[used_start]="#E4F40B"
+theme[used_mid]="#C80909"
+theme[used_end]="#800000"
+
+# --- Download Graph (Sky Blue gradient) ---
+theme[download_start]="#00CCFF"
+theme[download_mid]="#66DFFF"
+theme[download_end]="#0BF42A"
+
+# --- Upload Graph (Green gradient) ---
+theme[upload_start]="#0BF42A"
+theme[upload_mid]="#66DFFF"
+theme[upload_end]="#00CCFF"
+
+# --- Process box gradients ---
+theme[process_start]="#0BF42A" 
+theme[process_mid]="#00CCFF"   
+theme[process_end]="#E06C75"

@@ -1,0 +1,51 @@
+/* --- Sky Blue Text & Forest Green Borders --- */
+@define-color background #1A1A1A;      /* Dark Anchor Color */
+@define-color foreground #00CCFF;      /* WRITINGS: Sky Blue */
+@define-color hover alpha(#00CCFF, 0.3); /* Hover matches text */
+@define-color selected #057020;        /* Selection highlight */
+@define-color warning #e5c07b;
+@define-color critical #e06c75;
+@define-color border alpha(#057020, 0.7); /* BORDER variable */
+@define-color accent #057020;          /* BORDERS/ACCENT: Forest Green */
+@define-color base-bg #1A1A1A;
+
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#tray {
+    color: @foreground; /* This makes the text Sky Blue */
+}
+
+#battery.charging, 
+#battery.plugged {
+    color: @accent; /* Charging icon becomes Forest Green */
+}
+
+#battery.warning:not(.charging) {
+    color: @warning;
+}
+
+#battery.critical:not(.charging) {
+    background-color: @critical;
+    color: @background;
+    border-radius: 8px;
+}
+
+#pulseaudio.muted {
+    color: @critical;
+}
+
+#network.disconnected {
+    color: @critical;
+}
+
+tooltip {
+    background-color: @background;
+    border: 2px solid @accent; /* Tooltip border becomes Forest Green */
+    border-radius: 8px;
+}
+
+tooltip label {
+    color: @foreground; /* Tooltip text becomes Sky Blue */
+}
