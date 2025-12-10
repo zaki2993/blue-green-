@@ -38,7 +38,3 @@ omarchy-restart-waybar
 
 ## Screenshots
 
-![Forest Green 2](https://github.com/abhijeet-swami/omarchy-forest-green/raw/main/screenshot/5.png)
-![Forest Green 1](https://github.com/abhijeet-swami/omarchy-forest-green/raw/main/screenshot/1.png)
-![Forest Green 3](https://github.com/abhijeet-swami/omarchy-forest-green/raw/main/screenshot/2.png)
-
