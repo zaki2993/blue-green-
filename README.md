@@ -1,4 +1,4 @@
-# 🌲 Forest Green
+# 🌲 Blue & Green
 
 A sleek, modern theme with a refreshing green palette and subtle glassmorphism for a cohesive, focused desktop experience.
 
